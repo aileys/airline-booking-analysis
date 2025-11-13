@@ -3,4 +3,9 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+requests
+beautifulsoup4
+nltk
+wordcloud
 jupyter
+
