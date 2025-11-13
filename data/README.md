@@ -1,0 +1,51 @@
+# Data Dictionary — Airline Booking Dataset
+
+File: `customer_booking.csv`  
+Rows: 50,000  
+Columns: 14
+
+## Columns
+
+- `num_passengers`  
+  Number of passengers included in the booking (integer).
+
+- `sales_channel`  
+  How the booking was made (e.g., "Internet", "Mobile").
+
+- `trip_type`  
+  Type of trip, such as round trip vs one-way (e.g., "RoundTrip").
+
+- `purchase_lead`  
+  Number of days between the booking date and the flight date.
+
+- `length_of_stay`  
+  Number of days between outbound and return flights (for round trips).
+
+- `flight_hour`  
+  Hour of the flight departure (0–23).
+
+- `flight_day`  
+  Day of the week of the flight (e.g., "Mon", "Tue", …, "Sun").  
+  In the notebook, this is mapped to numeric codes.
+
+- `route`  
+  Route of the flight, represented as an origin–destination pair (e.g., "AKLDEL").
+
+- `booking_origin`  
+  Country from which the booking was made (e.g., "New Zealand", "India").
+
+- `wants_extra_baggage`  
+  1 if the customer requested extra baggage, otherwise 0.
+
+- `wants_preferred_seat`  
+  1 if the customer requested a preferred seat, otherwise 0.
+
+- `wants_in_flight_meals`  
+  1 if the customer requested in-flight meals, otherwise 0.
+
+- `flight_duration`  
+  Flight duration in hours (float).
+
+- `booking_complete`  
+  **Target variable.**  
+  1 if the customer completed the booking, 0 if the booking was not completed
